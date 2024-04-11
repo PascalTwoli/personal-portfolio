@@ -1,0 +1,129 @@
+@media only screen and (max-width: 1520px){
+  main{
+    /* padding-top: 15vw;
+    padding-bottom: 15vw;
+    background-size: 136%; */
+  }
+
+}
+
+@media only screen and (max-width: 1300px){
+  #container{
+    display: none;
+  }
+  .about-me{
+    padding-bottom: 100px;
+  }
+}
+
+
+@media only screen and (max-width: 1024px){
+  nav{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5vw;
+  }
+  main{
+    padding-top: 45vw;
+    padding-bottom: 38vw;
+    background-size: 180%;
+  }
+
+  main h1{
+    color: rgb(137, 241, 137);
+  }
+
+  .about-me-grid{
+    display: block;
+  }
+  .about-me img{
+    display: none;
+  }
+
+  .skills{
+    background-image: url(me1.jpeg);
+    padding-top: 28vw;
+    padding-bottom: 15vw;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  main{
+    padding-top: 50vw;
+    padding-bottom: 44vw;
+    background-size: 200%;
+  }
+  .grid-container{
+    display: block;
+  }
+
+  .services-grid{
+    display: block;
+  }
+  .left div{
+    width: 300px;
+    text-align: right;
+    padding-left: 38vw;
+    padding-right: 3vw;
+  }
+
+  h1{
+    font-size: 6vw;
+  }
+}
+@media only screen and (max-width: 500px){
+  body{
+    margin: 0px;
+    padding: 0px;
+  }
+  main{
+    padding-top: 96vw;
+    padding-bottom: 86vw;
+    background-size: cover;
+    
+  }
+  .profile h1{
+    font-size: 40px;
+  }
+  .profile p{
+    font-size: 14px;
+  }
+  .skills{
+    background-size: 170%;
+  }
+  .left div{
+    width: 300px;
+    text-align: center;
+    padding-left: 2vw;
+    padding-right: 3vw;
+  }
+
+  .h1{
+    font-size: 8vw;
+  }
+  .h2{
+    font-size: 7vw;
+  }
+  nav{
+    display: none;
+    position: absolute;
+    top: 30px;
+  }
+  
+  .heading:hover + #navigation{
+    display: block;
+    position: absolute;
+    flex-direction: column;
+    height: 200px;
+    width: 100px;
+    background-color: yellow;
+    z-index: 1000;
+  }
+  menu{
+    display: block;
+  }
+  .about-me{
+    padding-bottom: 100px;
+  }
+}
+
